@@ -2,6 +2,7 @@
 GitHub actions learnings
 
 ## created a workflow . added jobs and steps to it
+```bash
 jobs:
   first-job:
     runs-on: ubuntu-latest
@@ -10,3 +11,4 @@ jobs:
         run: echo "Hello World"
       - name: Print goodbye
         run: echo "Done -bye!"
+```
